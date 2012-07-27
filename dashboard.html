@@ -1,0 +1,312 @@
+<!doctype html>
+
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!-- the "no-js" class is for Modernizr. -->
+
+<head data-template-set="html5-reset">
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Greenlife Water</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/themes/start/jquery-ui.css" type="text/css" />
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.inputDate input').datepicker();
+		});
+	</script>
+
+</head>
+
+<body>
+	
+    <header class="mainHeader">
+    	<a href="#" class="logo"></a>
+        <nav>
+        	<ul>
+            	<li><a href="#" class="selected">CRM Home</a></li>
+                <li><a href="#">Calendar</a></li>
+                <li><a href="#">Appts</a></li>
+                <li><a href="#">Payroll</a></li>
+                <li><a href="#">Inventory</a></li>
+                <li><a href="#">Users</a></li>
+                <li><a href="#">Marketing</a></li>
+                <li><a href="#">System</a></li>
+            </ul>
+        </nav>
+    </header><!-- .mainHeader -->
+    
+    <section class="container">
+    	<header class="containerHeader">
+        	<nav>
+            	<ul>
+                	<li><a href="#" class="selected">Contract List</a></li>
+                    <li><a href="#">New Customer</a></li>
+                    <li><a href="#">Call Queue</a></li>
+                    <li><a href="#">Complaint</a></li>
+                </ul>
+            </nav>
+            <form action="" method="">
+            	<div>
+                	<input type="search" placeholder="Search" />
+                    <button type="button" title="Search"></button>
+                </div>
+            </form>
+        </header><!-- .containerHeader -->
+        
+        <div class="innerContainer">
+        	<div class="sortFilters">
+            	<h1>432 Records</h1>
+                <div>
+                	<label>Items per page:</label>
+                    <select>
+                    	<option>10</option>
+                    </select>
+                    <label>Sort by:</label>
+                    <select>
+                    	<option>Date</option>
+                    </select>
+                </div>
+            </div><!-- .sortFilters -->
+            
+            <table cellpadding="0" cellspacing="0" border="0" width="100%" class="browserTable">
+            	<thead>
+                	<tr>
+                    	<td>Date</td>
+                        <td>Customer #</td>
+                        <td>Customer Name</td>
+                        <td>Contract #</td>
+                        <td>Agent Name</td>
+                        <td>Product</td>
+                        <td>Status</td>
+                        <td>Comp. Cert #</td>
+                        <td>Install</td>
+                        <td>Service</td>
+                        <td>Cancel</td>
+                    </tr>
+                </thead>
+                <tbody>
+                	<tr class="subHeader">
+                    	<td>
+                        	<div class="inputDate">
+                        		<input type="text"/>
+                            </div><!-- .inputDate -->
+                        </td>
+                        <td><div class="inputCover"><input type="text" /></div></td>
+                        <td><div class="inputCover"><input type="text" /></div></td>
+                        <td><div class="inputCover"><input type="text" /></div></td>
+                        <td><div class="inputCover"><input type="text" /></div></td>
+                        <td>
+                        	<div class="inputCover">
+                        	<select class="productSelect">
+                        		<option>Select</option>
+                            </select>
+                            </div>
+                        </td>
+                        <td>
+                        	<div class="inputCover">
+                        	<select>
+                        		<option>Select</option>
+                            </select>
+                            </div>
+                        </td>
+                        <td><div class="inputCover"><input type="text" /></div></td>
+                        <td>
+                        	<div class="inputDate">
+                        		<input type="text" />
+                            </div><!-- .inputDate -->
+                        </td>
+                        <td>
+                        	<div class="inputDate">
+                        		<input type="text" />
+                            </div><!-- .inputDate -->
+                        </td>
+                        <td>
+                        	<div class="inputDate">
+                        		<input type="text" />
+                            </div><!-- .inputDate -->
+                        </td>
+                    </tr><!-- .subHeader -->
+                    
+                    <tr>
+                    	<td>5/15/12 9:53 AM</td>
+                        <td><a href="#">002</a></td>
+                        <td>
+                        	<a href="#">Simon Taylor</a>
+                        	<a href="#">(2)</a>
+                        </td>
+                        <td><a href="#">2135123</a></td>
+                        <td>Julie Cao</td>
+                        <td>EQ-500 monthly rental program</td>
+                        <td>Pending</td>
+                        <td>657865</td>
+                        <td><a href="#">7/3/12 3:30 PM</a></td>
+                        <td><a href="#">Filter Change</a></td>
+                        <td><a href="#">Initiate</a></td>
+                    </tr>
+                    
+                    <tr>
+                    	<td>5/15/12 9:53 AM</td>
+                        <td><a href="#">002</a></td>
+                        <td>
+                        	<a href="#">Simon Taylor</a>
+                        	<a href="#">(2)</a>
+                        </td>
+                        <td><a href="#">2135123</a></td>
+                        <td>Julie Cao</td>
+                        <td>EQ-500 monthly rental program</td>
+                        <td>Pending</td>
+                        <td>657865</td>
+                        <td><a href="#">7/3/12 3:30 PM</a></td>
+                        <td><a href="#">Filter Change</a></td>
+                        <td><a href="#">Initiate</a></td>
+                    </tr>
+                    
+                    <tr>
+                    	<td>5/15/12 9:53 AM</td>
+                        <td><a href="#">002</a></td>
+                        <td>
+                        	<a href="#">Simon Taylor</a>
+                        	<a href="#">(2)</a>
+                        </td>
+                        <td><a href="#">2135123</a></td>
+                        <td>Julie Cao</td>
+                        <td>EQ-500 monthly rental program</td>
+                        <td>Pending</td>
+                        <td>657865</td>
+                        <td><a href="#">7/3/12 3:30 PM</a></td>
+                        <td><a href="#">Filter Change</a></td>
+                        <td><a href="#">Initiate</a></td>
+                    </tr>
+                    
+                    <tr>
+                    	<td>5/15/12 9:53 AM</td>
+                        <td><a href="#">002</a></td>
+                        <td>
+                        	<a href="#">Simon Taylor</a>
+                        	<a href="#">(2)</a>
+                        </td>
+                        <td><a href="#">2135123</a></td>
+                        <td>Julie Cao</td>
+                        <td>EQ-500 monthly rental program</td>
+                        <td>Pending</td>
+                        <td>657865</td>
+                        <td><a href="#">7/3/12 3:30 PM</a></td>
+                        <td><a href="#">Filter Change</a></td>
+                        <td><a href="#">Initiate</a></td>
+                    </tr>
+                    
+                    <tr>
+                    	<td>5/15/12 9:53 AM</td>
+                        <td><a href="#">002</a></td>
+                        <td>
+                        	<a href="#">Simon Taylor</a>
+                        	<a href="#">(2)</a>
+                        </td>
+                        <td><a href="#">2135123</a></td>
+                        <td>Julie Cao</td>
+                        <td>EQ-500 monthly rental program</td>
+                        <td>Pending</td>
+                        <td>657865</td>
+                        <td><a href="#">7/3/12 3:30 PM</a></td>
+                        <td><a href="#">Filter Change</a></td>
+                        <td><a href="#">Initiate</a></td>
+                    </tr>
+                    
+                    <tr>
+                    	<td>5/15/12 9:53 AM</td>
+                        <td><a href="#">002</a></td>
+                        <td>
+                        	<a href="#">Simon Taylor</a>
+                        	<a href="#">(2)</a>
+                        </td>
+                        <td><a href="#">2135123</a></td>
+                        <td>Julie Cao</td>
+                        <td>EQ-500 monthly rental program</td>
+                        <td>Pending</td>
+                        <td>657865</td>
+                        <td><a href="#">7/3/12 3:30 PM</a></td>
+                        <td><a href="#">Filter Change</a></td>
+                        <td><a href="#">Initiate</a></td>
+                    </tr>
+                    
+                    <tr>
+                    	<td>5/15/12 9:53 AM</td>
+                        <td><a href="#">002</a></td>
+                        <td>
+                        	<a href="#">Simon Taylor</a>
+                        	<a href="#">(2)</a>
+                        </td>
+                        <td><a href="#">2135123</a></td>
+                        <td>Julie Cao</td>
+                        <td>EQ-500 monthly rental program</td>
+                        <td>Pending</td>
+                        <td>657865</td>
+                        <td><a href="#">7/3/12 3:30 PM</a></td>
+                        <td><a href="#">Filter Change</a></td>
+                        <td><a href="#">Initiate</a></td>
+                    </tr>
+                    
+                    <tr>
+                    	<td>5/15/12 9:53 AM</td>
+                        <td><a href="#">002</a></td>
+                        <td>
+                        	<a href="#">Simon Taylor</a>
+                        	<a href="#">(2)</a>
+                        </td>
+                        <td><a href="#">2135123</a></td>
+                        <td>Julie Cao</td>
+                        <td>EQ-500 monthly rental program</td>
+                        <td>Pending</td>
+                        <td>657865</td>
+                        <td><a href="#">7/3/12 3:30 PM</a></td>
+                        <td><a href="#">Filter Change</a></td>
+                        <td><a href="#">Initiate</a></td>
+                    </tr>
+                    
+                    <tr>
+                    	<td>5/15/12 9:53 AM</td>
+                        <td><a href="#">002</a></td>
+                        <td>
+                        	<a href="#">Simon Taylor</a>
+                        	<a href="#">(2)</a>
+                        </td>
+                        <td><a href="#">2135123</a></td>
+                        <td>Julie Cao</td>
+                        <td>EQ-500 monthly rental program</td>
+                        <td>Pending</td>
+                        <td>657865</td>
+                        <td><a href="#">7/3/12 3:30 PM</a></td>
+                        <td><a href="#">Filter Change</a></td>
+                        <td><a href="#">Initiate</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <div class="pagination">
+            	<ul>
+                	<li><a href="#">1</a></li>
+                    <li><a href="#" class="currentPage">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">Next</a></li>
+                    <li><a href="#">Last</a></li>
+                </ul>
+            </div><!-- .pagination -->
+            
+        </div><!-- .innerContainer -->
+    </section><!-- .container -->
+    
+    <footer>
+    	<p>Copyright &copy; 2012</p>
+    </footer>
+	
+</body>
+</html>
